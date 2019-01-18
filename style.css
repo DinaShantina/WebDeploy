@@ -1,6 +1,6 @@
 body {
     font-family: 'Work Sans', sans-serif;
-    padding: 80px;
+    /* padding: 80px; */
 }
 
 .navbar-header span {
@@ -22,8 +22,9 @@ body {
 }
 
 .nav {
-    height: 7vh;
+    height: 10vh;
     padding-top: 3px;
+    padding-bottom: 3px;
 }
 
 .cards {
@@ -33,16 +34,6 @@ body {
     border-radius: 5px;
     color: black;
 }
-
-/* .downCard {
-    background-color: transparent;
-    position: absolute !important;
-    top: 0%;
-    left: 0%;
-    padding: 7% 15% 7% 15%;
-    z-index: -1;
-    border-radius: 5px;
-} */
 
 .cards:hover {
     background: linear-gradient(135deg, #5087d3 2%, #2b88d9 23%, #e87d96 68%);
@@ -78,3 +69,34 @@ body {
 .bgGrey {
     background-color
 }
+
+.bg {
+    height: 90vh;
+    background: linear-gradient(135deg, #5087d3 2%, #2b88d9 23%, #e87d96 68%);
+    padding-top: 10%;
+    color: white;
+    position: relative;
+}
+.b1 {
+    border-radius: 20px;
+    background-color: white;
+    color: red;
+    padding: 7px 40px;
+    margin-top: 3.5%;
+}
+.section h2 {
+    font-size: 60px;
+    font-weight: bolder;
+}
+.section h3 {
+    line-height: 35px;
+}
+.port h1{
+    position: absolute;
+    margin: 0 auto;
+    font-size: 230px;
+    color: rgba(0, 0, 0, 0.1);
+}
+
+
+
