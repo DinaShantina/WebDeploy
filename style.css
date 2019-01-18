@@ -1,0 +1,80 @@
+body {
+    font-family: 'Work Sans', sans-serif;
+    padding: 80px;
+}
+
+.navbar-header span {
+    color: black;
+    font-weight: bold;
+    letter-spacing: 3px;
+    font-size: 30px;
+}
+
+.buttonNav {
+    margin-right: 20px;
+    margin-top: 8px;
+    background-color: red;
+    color: white;
+    border-radius: 40px;
+    border: none;
+    padding: 5px 30px 5px 30px;
+    font-size: 15px;
+}
+
+.nav {
+    height: 7vh;
+    padding-top: 3px;
+}
+
+.cards {
+    background-color: white;
+    position: relative !important;
+    padding: 7% 15% 7% 15%;
+    border-radius: 5px;
+    color: black;
+}
+
+/* .downCard {
+    background-color: transparent;
+    position: absolute !important;
+    top: 0%;
+    left: 0%;
+    padding: 7% 15% 7% 15%;
+    z-index: -1;
+    border-radius: 5px;
+} */
+
+.cards:hover {
+    background: linear-gradient(135deg, #5087d3 2%, #2b88d9 23%, #e87d96 68%);
+    color: white;
+    cursor: pointer;
+}
+
+.colorIcon:hover {
+    color: white;
+}
+
+.cards:hover .hr {
+    border: 2px solid white;
+}
+
+.cards:hover .colorIcon {
+    color: white;
+}
+
+.hr {
+    width: 20%;
+    border: 2px solid rgb(199, 123, 136);
+}
+
+.colorIcon {
+    color: rgb(199, 123, 136);
+}
+
+.py-1 {
+    padding-top: 20px;
+}
+
+.bgGrey {
+    background-color
+}
