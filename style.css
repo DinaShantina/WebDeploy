@@ -77,6 +77,7 @@ body {
     color: white;
     position: relative;
 }
+
 .b1 {
     border-radius: 20px;
     background-color: white;
@@ -84,19 +85,46 @@ body {
     padding: 7px 40px;
     margin-top: 3.5%;
 }
+
 .section h2 {
     font-size: 60px;
     font-weight: bolder;
 }
+
 .section h3 {
     line-height: 35px;
 }
-.port h1{
+
+.port h1 {
     position: absolute;
     margin: 0 auto;
     font-size: 230px;
     color: rgba(0, 0, 0, 0.1);
 }
 
+.py-3 {
+    padding: 3% 10% 3% 10%;
+}
 
+.pFont {
+    font-size: 2rem;
+}
 
+.h2 {
+    font-size: 4rem;
+    color: rgb(228, 17, 52);
+    font-weight: bold;
+}
+
+.icon2 {
+    color: grey;
+}
+
+.py-4 {
+    padding-top: 2 %;
+    padding-bottom: 3%;
+}
+
+.my-1 {
+    margin-top: 67px;
+}
